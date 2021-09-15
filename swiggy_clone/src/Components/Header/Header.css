@@ -1,0 +1,74 @@
+.Navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  /* margin-top: 80px;
+  margin-left: 190px;
+  margin-right: 80px; */
+}
+.logo img {
+  height: 65px;
+}
+.Buttons {
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 28px;
+  padding-bottom: 30px;
+}
+
+.Buttons button:nth-of-type(1) {
+  height: 40px;
+  width: 120px;
+  background: white;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: black;
+}
+
+.Buttons button:nth-of-type(2) {
+  height: 40px;
+  width: 120px;
+  background: black;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: white;
+}
+@media screen and (max-width: 370px) {
+  .Navbar {
+    margin-top: 10px;
+    display: block;
+    align-items: flex-start;
+    margin-left: 0;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+  .Buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .Buttons button:nth-of-type(1) {
+    height: 30px;
+    width: 90px;
+    background: white;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: black;
+  }
+
+  .Buttons button:nth-of-type(2) {
+    height: 30px;
+    width: 90px;
+    background: black;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+  }
+
+  
+}

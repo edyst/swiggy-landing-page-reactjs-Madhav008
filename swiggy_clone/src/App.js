@@ -1,19 +1,22 @@
-import "./App.css";
-import { Header } from "./Components/Header/Header";
-import FirstSection from "./Components/Section1/FirstSection";
-import SecondSetion from "./Components/Section2/SecondSetion";
-import ThirdSection from "./Components/Section3/ThirdSection";
-import FourthSection from "./Components/Section4/FourthSection";
+import React from 'react'
+import Herosection from './components/Herosection/hero'
+import Features from './components/Features/features'
+import Restaurants from './components/Restaurants/restaurants'
+import Footer from './components/Footer/footer'
+
+import './App.css';
+import './components/FontAwesome'
+
 
 function App() {
   return (
-    <div className="App">
-      <FirstSection />
-      <SecondSetion />
-      <ThirdSection />
-      <FourthSection />
+    <div className="body">
+      <Herosection />
+      <Features />
+      <Restaurants />
+      <Footer />
     </div>
-  );
+  )
 }
 
 export default App;
